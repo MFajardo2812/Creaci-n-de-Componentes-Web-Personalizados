@@ -8,48 +8,44 @@ El proyecto se organiza en los siguientes archivos y carpetas:
 
 ![estructutra](https://github.com/user-attachments/assets/a953c5bf-7d64-4aac-8248-c97151f61093)
 
+Cada archivo JS dentro de `components/` define un componente web que se utiliza en el archivo `index.html` para mostrar diferentes secciones de la página. Los componentes tienen un alcance aislado gracias al uso de *Shadow DOM*, lo que permite encapsular estilos y lógica sin afectar al resto del documento.
 
 ### Índice
 
-1. [Descripción del Proyecto](#descripción-del-proyecto)
+1. [Descripción del Proyecto](#header-(header.js))
 2. [Instalación](#instalación)
 3. [Smileys & Emotion](#smileys--emotion)
 4. [Contribución](#contribución)
 5. [Contacto](#contacto)
 
 
+#### 1. **Header (header.js)**
 
-#### Descripción del Proyecto
+Este componente crea un encabezado en la parte superior de la página. El encabezado tiene un fondo verde oscuro y un texto centrado.
 
-Este proyecto es un sistema de gestión de libros que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar). Está diseñado utilizando PHP con el patrón MVC, MySQL, y Axios para solicitudes HTTP.
+- En el constructor del componente, se utiliza `this.attachShadow({ mode: 'open' })` para crear un *Shadow DOM*.
+- Dentro del *Shadow DOM*, se inserta un `header` con el texto "Conectados".
+
+```javascript
+this.shadowRoot.innerHTML = `
+  <style>
+    header {
+      background-color: #064e3b;
+      color: #ffffff;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  </style>
+  <header>Conectados</header>
+`;
 
 
-## Instalación
 
-Sigue estos pasos para instalar el proyecto:
 
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/usuario/mi-proyecto.git
 
-### Smileys & Emotion
 
-- [Face Smiling](#face-smiling)
-- [Face Affection](#face-affection)
-- [Face Tongue](#face-tongue)
-- [Face Hand](#face-hand)
-- [Face Neutral Skeptical](#face-neutral-skeptical)
-- [Face Sleepy](#face-sleepy)
-- [Face Unwell](#face-unwell)
-- [Face Hat](#face-hat)
-- [Face Glasses](#face-glasses)
-- [Face Concerned](#face-concerned)
-- [Face Negative](#face-negative)
-- [Face Costume](#face-costume)
-- [Cat Face](#cat-face)
-- [Monkey Face](#monkey-face)
-- [Heart](#heart)
-- [Emotion](#emotion)
 
 
 
