@@ -19,7 +19,7 @@ Cada archivo JS dentro de `components/` define un componente web que se utiliza 
 5. [Contacto](#contacto)
 
 
-#### 1. **Header**
+#### **Header**
 
 Este componente (header.js) crea un encabezado en la parte superior de la página. El encabezado tiene un fondo verde oscuro y un texto centrado.
 
