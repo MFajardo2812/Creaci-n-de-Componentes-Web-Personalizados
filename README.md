@@ -12,7 +12,7 @@ Cada archivo JS dentro de `components/` define un componente web que se utiliza 
 
 ### Índice
 
-1. [Header](#header-(header.js))
+1. [Header](#header--header.js-)
 2. [Instalación](#instalación)
 3. [Smileys & Emotion](#smileys--emotion)
 4. [Contribución](#contribución)
