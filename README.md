@@ -22,7 +22,8 @@ Cada archivo JS dentro de `components/` define un componente web que se utiliza 
 8. [Index](#index)
 9. [App](#app)
 10. [Estilos](#estilos)
-11. [Conclusión](#conclusión)
+11. [Uso](#uso)
+12. [Conclusión](#conclusión)
 
 
 
@@ -250,6 +251,35 @@ El archivo styles.css contiene los estilos globales para la página. Define la t
 
 Aplica estilos consistentes a los elementos básicos de la página, como los encabezados y los enlaces, usando colores que combinan con la paleta del diseño general.
 
+#### **Uso**
+
+Para ejecutar este proyecto, sigue estos pasos:
+
+**Requisitos previos**
+
+- Navegador web moderno (Google Chrome, Firefox, Edge).
+
+**Pasos para ejecutar el proyecto**
+
+**Clonar el repositorio**:
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+   ```
+**Acceder al directorio del proyecto:**
+```bash
+cd conectados
+```
+**Abrir el proyecto en el navegador:**
+- Si usas un servidor local, coloca los archivos en la carpeta correspondiente y abre el proyecto en tu navegador.
+- Si no usas servidor, abre directamente `index.html` en tu navegador.
+**Ver la aplicación:**
+ El proyecto cargará la página con las secciones de Perfil, Tabla y Galería, navegables dinámicamente.
+**Desarrollar y modificar**
+-	Editar componentes: Los archivos de los componentes están en `components/`.
+-	Modificar rutas: Actualiza las rutas en `app.js` para agregar nuevas secciones.
+-	Estilos: Los estilos globales están en `styles.css`.
+
+
 #### **Conclusión**
 
 El proyecto demuestra cómo usar Web Components para construir una aplicación web modular y reutilizable. Cada componente está aislado y puede ser utilizado en otros proyectos sin problemas. La estructura modular facilita la expansión del proyecto y la reutilización de sus partes, lo que permite un desarrollo ágil y flexible.
@@ -257,3 +287,4 @@ El proyecto demuestra cómo usar Web Components para construir una aplicación w
 
 Este archivo `README.md` ahora contiene una descripción detallada de cada componente, cómo funciona, y ejemplos específicos de código para facilitar la comprensión.
 
+Realizado por: Margarita Fajardo
