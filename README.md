@@ -39,7 +39,9 @@ this.shadowRoot.innerHTML = `
     }
   </style>
   <header>Conectados</header>
-`;
+`;´´´
+
+El texto del encabezado es personalizado y se encuentra dentro de un bloque <header> que se presenta con un fondo verde y texto en blanco.
 
 
 
