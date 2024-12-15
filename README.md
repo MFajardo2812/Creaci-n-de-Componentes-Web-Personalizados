@@ -12,16 +12,16 @@ Cada archivo JS dentro de `components/` define un componente web que se utiliza 
 
 ### Índice
 
-1. [Header](#header--header.js-)
+1. [Header](#header)
 2. [Instalación](#instalación)
 3. [Smileys & Emotion](#smileys--emotion)
 4. [Contribución](#contribución)
 5. [Contacto](#contacto)
 
 
-#### 1. **Header (header.js)**
+#### 1. **Header**
 
-Este componente crea un encabezado en la parte superior de la página. El encabezado tiene un fondo verde oscuro y un texto centrado.
+Este componente (header.js) crea un encabezado en la parte superior de la página. El encabezado tiene un fondo verde oscuro y un texto centrado.
 
 - En el constructor del componente, se utiliza `this.attachShadow({ mode: 'open' })` para crear un *Shadow DOM*.
 - Dentro del *Shadow DOM*, se inserta un `header` con el texto "Conectados".
